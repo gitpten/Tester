@@ -1,0 +1,103 @@
+﻿BODY {
+    font-family: Candara, Verdana, Arial;
+    margin: 0;
+}
+
+DIV#header H1, H3, H4, DIV.pager A {
+    font: bold 1em Georgia, "Times New Roman";
+}
+
+DIV#header {
+    background-color: #CCC;
+    border-bottom: 2px solid #111;
+    color: black;
+}
+
+DIV#header h1 {
+        font-size: 2em;
+        padding: .6em;
+    }
+
+DIV#content {
+    border-left: 2px solid gray;
+    margin-left: 9em;
+    padding: 1em;
+}
+
+DIV#menu {
+    float: left;
+    width: 8em;
+    margin: 10px;
+    padding: 5px; 
+}
+
+
+DIV.pager {
+    border-top: 2px;
+    padding: .5em 0 0 0;
+    margin-top: 1em;
+}
+
+    DIV.pager A {
+        font-size: 1.1em;
+        color: #555;
+    }
+
+        DIV.pager A:hover {
+            background-color: #333;
+        }
+
+        DIV.pager A.selected {
+            background-color: black;
+            color: White;
+        }
+
+DIV#menu A {
+    font: bold 1.1em Candara, Verdana, Arial;
+    display: block;
+    padding: .6em;
+    color: Black;
+    border-bottom: 1px solid silver;
+}
+
+    DIV#menu A.selected {
+        background-color: #CCC;
+        color: black;
+    }
+
+    DIV#menu A:hover {
+        color: #666;
+    }
+
+    DIV#menu A.selected:hover {
+        color: #666;
+    }
+
+FORM {
+    margin: 0;
+    padding: 0;
+}
+
+DIV.item INPUT {
+    color: White;
+    background-color: #333;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+H2 {
+    margin-top: 0.3em;
+}
+
+TFOOT TD {
+    border-top: 1px dotted gray;
+    font-weight: bold;
+}
+
+DIV#timespent, DIV#Questionsleft {
+    margin: .8em;
+    color: Silver;
+    background-color: #555;
+    color: white;
+    padding: .5em .5em .5em 1em;
+}
